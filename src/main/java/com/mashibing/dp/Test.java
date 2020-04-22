@@ -11,7 +11,7 @@ public class Test {
         Thread t = new Thread(()->{
             System.out.println("start");
             LockSupport.park(); //一直wait
-            System.out.println("continue");
+            System.out.println("continue。。。。。。");
         });
         t.start();
 
